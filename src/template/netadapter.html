@@ -1,0 +1,18 @@
+<template class="netadapter-template">
+  <select id="netadapter-list"></select>
+  <div style="display: flex; margin-top: 10px;">
+    <div>현재 설정&nbsp;-&nbsp;</div>
+    <div id="speed-duplex"></div>
+  </div>
+  <div style="display: flex; margin-top: 10px; margin-bottom: 10px;">
+    <select id="speed-duplex-select" style="display: none;">
+      <option value="자동 협상">자동 협상</option>
+      <option value="1.0 Gbps 전이중">1.0 Gbps 전이중</option>
+      <option value="10 Mbps 전이중">10 Mbps 전이중</option>
+      <option value="10 Mbps 반이중">10 Mbps 반이중</option>
+      <option value="100 Mbps 전이중">100 Mbps 전이중</option>
+      <option value="100 Mbps 반이중">100 Mbps 반이중</option>
+    </select>
+    <button type="button" id="speed-duplex-btn" style="display: none;">변경</button>
+  </div>
+</template>

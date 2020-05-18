@@ -1,0 +1,27 @@
+{
+  "name": "win10-netadapter",
+  "productName": "win10-netadapter",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "echo \"No linting configured\"",
+    "rebuild:serialport": "electron-rebuild -f -w serialport"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Hyungjun Kim",
+    "email": "jun.glow9@gmail.com"
+  },
+  "license": "MIT",
+  "config": {},
+  "dependencies": {
+    "iconv-lite": "^0.5.1",
+    "jschardet": "^2.1.1",
+    "serialport": "^9.0.0"
+  },
+  "devDependencies": {
+    "electron": "8.3.0"
+  }
+}
